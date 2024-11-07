@@ -1,0 +1,28 @@
+general.import = [
+	"~/.config/alacritty/catppuccin-mocha.toml"
+]
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+
+opacity = 0.75
+
+padding.x = 10
+padding.y = 10
+
+decorations = "Full"
+decorations_theme_variant = "Light" # "Dark"
+
+[font]
+
+normal.family = "Cascadia Code NF"
+bold.family = "Cascadia Code NF"
+italic.family = "Cascadia Code NF"
+bold_italic.family = "Cascadia Code NF"
+
+size = 11.5
+
+[terminal]
+shell = "/bin/zsh"
