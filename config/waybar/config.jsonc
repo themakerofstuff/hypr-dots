@@ -180,7 +180,7 @@
         "tooltip-format": "{ifname} via {gwaddr} ",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
-	"on-click": "networkmanager_dmenu"
+	      "on-click": "networkmanager_dmenu"
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
@@ -213,6 +213,6 @@
     },
     "custom/power": {
         "format" : "",
-	"on-click": "/home/almank/.config/waybar/power-off.sh"
+	      "on-click": "/home/almank/.config/waybar/power-off.sh"
     }
 }
